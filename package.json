@@ -1,0 +1,30 @@
+{
+  "name": "f8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhducquach/nodejs-blog.git"
+  },
+  "keywords": [
+    "blog",
+    "nodejs"
+  ],
+  "author": "minhducquach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhducquach/nodejs-blog/issues"
+  },
+  "homepage": "https://github.com/minhducquach/nodejs-blog#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
